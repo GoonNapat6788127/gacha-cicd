@@ -1,6 +1,6 @@
 # One Gacha API — Lab 12 to Lab 14
 
-**Napat Tayommai 6788127**
+**Napat Tayommai 6788127 Lab14**
 **Dr. Pisit Praiwattana, your mentor in 2026**
 
 One Express (Node 24) API with PostgreSQL 18: recharge **virtual coins**, exchange 100 coins for 1 gem, and spend 10 gems on one random draw.
