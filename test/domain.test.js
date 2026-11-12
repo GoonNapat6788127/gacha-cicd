@@ -13,7 +13,7 @@ test('SSR is exactly rolls 0 and 1 out of 100', () => {
   assert.equal(count, RULES.legendaryPercent);
 });
 test('five legendary outcomes can each be selected uniformly', () => {
-  assert.equal(new Set(LEGENDARY.map(x => x.id)).size, 5);
+  assert.equal(new Set(LEGENDARY.map(x => x.id)).size, 6);
   for (let choice = 0; choice < 5; choice++) {
     let called = 0;
     const result = drawOutcome(max => ++called === 1 ? 1 : choice);
